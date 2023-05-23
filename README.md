@@ -1,3 +1,5 @@
+> Repository created to showcase the queries and scripts developed to solve and obtain the flags of the tryhackme | sqhell machine (https://tryhackme.com/room/sqhell), specifically the flags that required the use of SQL injection techniques: 'Time-based' > X-Forwarded-For and 'Boolean-based'. I want to clarify that I am currently learning about these vulnerabilities and scripting in Bash, so any recommendations and assistance are highly appreciated.
+
 # Blind SQL Injection > ‘Boolean based’
 
 ## Determine the length of DB: 
